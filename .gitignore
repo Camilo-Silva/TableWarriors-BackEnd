@@ -1,1 +1,5 @@
+# node stuff
 /node_modules/
+
+# manual tests stuff
+/routes/index.js
