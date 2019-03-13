@@ -5,7 +5,9 @@ const logger = require("morgan");
 
 require("./database/connection");
 
-const indexRouter = require("./routes/index");
+const vtmRouter = require("./routes/vtm-routes");
+const vtmSeederRouter = require("./routes/vtm-seeder-routes");
+const apiPrefix = "/apis";
 
 const app = express();
 
@@ -14,7 +16,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-app.use("/", indexRouter);
+app.use(`${apiPrefix}/vtm`, vtmRouter);
+app.use(`${apiPrefix}/vtm/seeders`, vtmSeederRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

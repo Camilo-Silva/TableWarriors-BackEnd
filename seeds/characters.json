@@ -1,0 +1,48 @@
+[
+    {
+        "clan": "Brujah",
+        "description": "O clã Brujah é composto quase completamente de rebeldes de todos os tipos, eternamente à procura das expressões definitivas de sua individualidade.\nOs Brujah são punks, carecas, motoqueiros, death-rockers, freaks, socialistas e anarquistas. Tendem a serem teimosos, altamente agressivos, rudes e extremamente vingativos.\nSão os vampiros mais incontroláveis da Família.\nEsses desajustados são fanáticos por suas crenças disparatadas — a única coisa que os une é seu desejo de sobrepujar o sistema social, seja vampírico ou mortal, e substitui-lo por um sistema forjado por eles mesmos (ou com nada). Muitos são obstinados, devotando-se à sua causa até se tornarem cegos a todas as outras nuances da verdade.\nEmbora os Brujah sejam incrivelmente separatistas, ajudam uns aos outros em momentos de necessidade, a despeito de disputas ou antagonismos passados. Se o chamado dos Brujah for feito, outros irão responder, mas o bando reunido ficará enraivecido se acharem que foram convocados sem motivo. O clã é mal organizado e apenas ocasionalmente convoca reuniões informais. Os Brujah dependem de seu comportamento caótico para atingirem os resultados que desejam. Outros Membros lhes permitem cometer suas excentricidades. Certas atividades que fariam outros Membros serem eliminados costuma valer-lhes apenas o comentário: \"Ah, é um Brujah\". Explosões de insolência e comportamento turbulento não surpreendem quando partem de um Brujah. Os outros Membros aprenderam a conceder aos Brujah uma liberdade de ação que não seria tolerada em nenhum outro vampiro.",
+        "nickname": "Ralé",
+        "apperance": "Os Brujah tendem a se vestir no estilo que seja o mais ultrajante daquele período, embora alguns se vistam de uma forma que entre em conflito com o resto do clã, de modo a serem \"os mais\" rebeldes. Jaquetas de couro, cabelo arrepiado, correntes e botas pretas são comuns hoje em dia, assim como diversas roupas antigas, especialmente aquelas da Renascença. Eles podem também vestir-se e assumir as atitudes de criminosos, neonazistas ou mesmo Deadheads.",
+        "refuge": "Os Brujah vivem onde quiserem, freqüentemente expulsando os infelizes que moravam antes no local escolhido. Por hábito, mudam-se com certa freqüência, nunca permanecendo no mesmo lugar por mais do que um mês. Costumam possuir muitos esconderijos onde podem ficar em momentos de tumulto. Uma tática nova de alguns Brujah é mudar-se para os lares de famílias suburbanas, submetendo-as à Dominação. Os Brujah \"grudam-se\" à família durante algumas semanas e mudam-se em seguida quando se entediam. Certos Brujah \"recrutam\" os adolescentes rebeldes da vizinhança um pouco antes de se mudarem.",
+        "background": "Ao escolherem sua progênie, os Brujah naturalmente preferem rebeldes. Apenas raras vezes um neófito é guiado através do processo. Normalmente os novos Brujah são entregues à sua própria sorte, convocados e auxiliados apenas pela vontade de seus senhores. Ele costuma manter-se anônimo para evitar a ira de um Príncipe severo. Um senhor costuma gerar mais de uma criança da noite por vez, formando uma prole. Como os Brujah nem sempre pedem a permissão do Príncipe quando criam sua progênie, as chances de sobrevivência das crianças serão maiores se formarem um grupo. Trata-se de uma estratégia numérica — quanto mais progênitos forem criados, mais provável será sua sobrevivência.",
+        "weakness": "Os membros deste clã são tomados pela frenesi com mais rapidez que os outros vampiros. Entretanto, os Brujah negam isto terminantemente. Na verdade ficam extremamente hostis (quase atingindo o frenesi) quando o assunto é levantado. O grau de dificuldade das jogadas de frenesi é sempre dois níveis maior do que o número anotado.",
+        "stereotypes": [
+            "Nosferatu — Devido à sua aparência, são rejeitados injustamente. Somos os únicos que os respeitam, a despeito de sua bestialidade.",
+            "Tremere — Nossos arqui-inimigos. Ninguém é pior que esses manipuladores.",
+            "Ventrue — Esses políticos vis e coniventes são hipócritas do mais alto grau.",
+            "Gangrel — Verdade seja dita: eles sabem lutar.",
+            "Toreador — Bastardos afetados. Eles seriam aliados dignos se não fossem dependentes de vícios humanos.",
+            "Malkavians — Alguns são bons companheiros, mas todos são esquisitos."
+        ],
+        "organization": "Este clã é mal organizado e raramente se encontra formalmente. Contudo seus membros apóiam os anarquistas mais que qualquer outro clã. Na verdade os anarquistas formam o núcleo do movimento.",
+        "disciplines": [
+            "Rapidez",
+            "Potência",
+            "Presença"
+        ]
+    },
+    {
+        "clan": "Gangrel",
+        "nickname": "Forasteiros",
+        "description": "Os Gangrel são peregrinos, raramente permanecendo num mesmo lugar por muito tempo. Nisto diferem enormemente da maioria dos Membros, que tendem a escolher um refúgio e ficar nele. Não existem líderes estabelecidos do clã; no todo, os Gangrel não ligam para essas coisas. Reservados, silenciosos e solenes, costumam manter suas cartas escondidas. Este é um clã de sobreviventes — vampiros capazes de agir por conta própria.\nEles não desprezam a civilização ou a sociedade dos outros Membros — simplesmente não precisam delas. São conhecidos por sua tranqüilidade quando cruzam as terras dos Lupinos (Lobisomens). Diz-se que os Gangrel possuem amigos entre os metamorfos. Os Gangrel são eles próprios metamorfos muito capazes, o que pode explicar sua capacidade em cruzar as áreas selvagens sem serem molestados. Não existem relatos deles serem capazes de assumir formas de outras coisas senão lobos e morcegos, mas existem antigas lendas sobre anciões do clã que eram capazes de assumir forma de névoa.\nTalvez devido à esta disciplina Metamorfose, suas feições costumam assemelhar-se às de animais. De fato, alguns dos Gangrel mais velhos guardam pouca semelhança aos humanos. Os Gangrel possuem um parentesco próximo com os ciganos. Caso as lendas possam ser levadas em consideração, os ciganos são os descendentes mortais do Antediluviano que fundou a linhagem Gangrel. Eles estão sob sua proteção, e qualquer Membro que ferir ou Abraçar um cigano terá de responder a esse Antediluviano.\nA despeito da lenda ser verdadeira ou não, os Membros odeiam ferir ciganos. Uma tradição antiga dita que os Gangrel devam ajudar os ciganos sempre que necessário. Também se tem notícia de membros do clã que foram ajudados por ciganos. Alguns entre os Gangrel adotaram muito da cultura cigana, incluindo maneirismos, elementos lingüísticos e vestuário.",
+        "apperance": "Os membros deste clã costumam possuir feições animalescas, especialmente se aderirem à Disciplina Metamorfose. Costumam ser bastante rústicos no vestuário e nos maneirismos.",
+        "refuge": "Os Gangrel são nômades por natureza, quase nunca adotando moradias permanentes. Embora muitos vivam numa única cidade, não costumam criar refúgios para eles mesmos, mas em vez disso dormem num lugar diferente a cada dia. Costumam ser encontrados em parques, zoológicos ou áreas verdes da cidade. A maioria deles possui a aptidão de se mesclar à terra, fazendo isso a cada alvorada para se esconder do sol.",
+        "background": "Os Gangrel sempre escolhem seus progênitos com muito cuidado, procurando aqueles que sejam sobreviventes. Porém, depois de Abraçarem esses mortais, eles os abandonam, deixando as crianças da noite entregues à própria sorte. Embora os senhores possam observá-los à distância, quase nunca interferem. Quando o momento for propício, eles se apresentam às suas proles e as instruem sobre a cultura e as leis do clã.",
+        "weakness": "Os Gangrel tornam-se mais animalescos a cada vez que são tomados pelo frenesi — o jogador de um personagem Gangrel precisa adquirir um novo traço animal cada vez que o personagem ficar frenético. À medida que o Gangrel envelhece, passa a assemelhar-se mais àquilo que verdadeiramente é — a Besta. Essas particularidades tendem a afetar negativamente os Atributos Sociais do personagem. Para cada cinco características animais adquiridas, o jogador deve diminuir em uma unidade cada Atributo Social do personagem.",
+        "stereotypes": [
+            "Nosferatu — Membros de espírito forte; temos muito em comum com eles.",
+            "Tremere — Embora eles não percebam isso, somos inimigos. Eles seguem a trilha errada e procuram destruir-nos a todos.",
+            "Ventrue — Cada seita precisa de líderes. Cada líder precisa servir a uma seita. Nossos líderes não são melhores ou piores que a maioria.",
+            "Toreador — Nós os desprezamos porque desprezo é tudo que merecem. Eles precisam a aprender a servir em vez de roubar.",
+            "Brujah — A sua virtude é pura, mas a sua visão é turva.",
+            "Malkavians — São reservatórios de imenso poder, mas mesmo eles não sabem explorá-lo."
+        ],
+        "organization": "Os Gangrel não se consideram pertencentes a um clã. Quase nunca realizam reuniões de clã e raramente comparecem às assembléias da Camarilla. Porém, preferem a companhia de vampiros de seu clã à de outros, podendo ser vistos juntos com freqüência.",
+        "disciplines": [
+            "Animalismo",
+            "Fortitude",
+            "Metamorfose"
+        ]
+    }
+]
