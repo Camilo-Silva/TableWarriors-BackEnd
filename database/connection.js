@@ -1,7 +1,6 @@
 const mongoose = require("mongoose");
-const config = require("../config/connection.json");
 
-mongoose.connect(config.url, { useNewUrlParser: true });
+mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true });
 mongoose.Promise = global.Promise;
 
 const database = mongoose.connection;
