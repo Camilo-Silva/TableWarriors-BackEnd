@@ -1,2 +1,6 @@
 # node stuff
 /node_modules/
+
+# database config
+/config/connection.json
+/database/connection.js
