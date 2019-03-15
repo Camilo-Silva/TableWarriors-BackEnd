@@ -15,6 +15,7 @@
             "Toreador — Bastardos afetados. Eles seriam aliados dignos se não fossem dependentes de vícios humanos.",
             "Malkavians — Alguns são bons companheiros, mas todos são esquisitos."
         ],
+        "characterImageUrl": "static/brujah.jpg",
         "organization": "Este clã é mal organizado e raramente se encontra formalmente. Contudo seus membros apóiam os anarquistas mais que qualquer outro clã. Na verdade os anarquistas formam o núcleo do movimento.",
         "disciplines": [
             "Rapidez",
@@ -38,6 +39,7 @@
             "Brujah — A sua virtude é pura, mas a sua visão é turva.",
             "Malkavians — São reservatórios de imenso poder, mas mesmo eles não sabem explorá-lo."
         ],
+        "characterImageUrl": "static/gangrel.jpg",
         "organization": "Os Gangrel não se consideram pertencentes a um clã. Quase nunca realizam reuniões de clã e raramente comparecem às assembléias da Camarilla. Porém, preferem a companhia de vampiros de seu clã à de outros, podendo ser vistos juntos com freqüência.",
         "disciplines": [
             "Animalismo",
