@@ -9,6 +9,7 @@ const CharacterModelSchema = new Schema({
   background: String,
   weakness: String,
   organization: String,
+  characterImage: { data: Buffer, contentType: String },
   stereotypes: [],
   disciplines: []
 });
