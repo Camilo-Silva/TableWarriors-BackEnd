@@ -7,6 +7,7 @@ require("./database/connection");
 
 const vtmRouter = require("./routes/vtm-routes");
 const vtmSeederRouter = require("./routes/vtm-seeder-routes");
+const usersRouter = require("./routes/users-routes");
 const apiPrefix = "/apis";
 
 const app = express();
@@ -18,6 +19,11 @@ app.use(cookieParser());
 
 app.use(`${apiPrefix}/vtm`, vtmRouter);
 app.use(`${apiPrefix}/vtm/seeders`, vtmSeederRouter);
+app.use(`${apiPrefix}/auth`, usersRouter);
+app.use((err, req, res, next) => {
+  res.status(500);
+  res.json(err);
+});
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

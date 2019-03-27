@@ -14,22 +14,33 @@ async function signIn(user) {
   };
 
   const payload = {
+    id: user.id,
     email: user.email
   };
 
   return await jwt.sign(payload, privateKey, signInOptions);
 }
 
-async function verify(token) {
-  try {
-    const sanitizedToken = token.split(" ")[1];
-    return await jwt.verify(sanitizedToken, publicKey);
-  } catch (err) {
-    return { error: true, message: "invalid token" };
+function guard(req, res, next) {
+  const { authorization } = req.headers;
+
+  if (typeof authorization !== "undefined") {
+    const token = authorization.split(" ")[1];
+
+    jwt.verify(token, publicKey, (err, decoded) => {
+      if (err) {
+        res.status(403).json({ error: true, message: "not authorized" });
+      } else {
+        req.body.user = decoded;
+        next();
+      }
+    });
+  } else {
+    res.status(403).json({ error: true, message: "not authorized" });
   }
 }
 
 module.exports = {
   signIn,
-  verify
+  guard
 };

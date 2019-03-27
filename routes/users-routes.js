@@ -6,7 +6,6 @@ const security = require("../security/security");
 const routerPrefix = "/users";
 const saltRounds = 10;
 
-// security functions
 router.post(`${routerPrefix}/`, (req, res, next) => {
   const user = ({ email, password } = req.body);
   bcrypt.genSalt(saltRounds, (err, salt) => {
@@ -53,13 +52,32 @@ router.post(`${routerPrefix}/login`, (req, res, next) => {
   });
 });
 
-router.get(`${routerPrefix}/protected`, (req, res, next) => {
-  const { authorization } = req.headers;
+router.put(`${routerPrefix}/update`, security.guard, (req, res, next) => {
+  const { user } = req.body;
+  const update = ({ email, password } = req.body);
 
-  security.verify(authorization).then(verified => {
-    if (verified.error) return next({ verified });
+  bcrypt.genSalt(saltRounds, (err, salt) => {
+    if (err) return next({ error: err });
 
-    res.status(200).json(verified);
+    bcrypt.hash(update.password, salt, (err, hash) => {
+      if (err) return next({ error: err });
+
+      update.password = hash;
+
+      UserModel.updateOne({ _id: user.id }, { $set: update }, (err, result) => {
+        if (err) return next({ error: err });
+        res.status(200).json(result);
+      });
+    });
+  });
+});
+
+router.delete(`${routerPrefix}/delete`, security.guard, (req, res, next) => {
+  const { user } = req.body;
+
+  UserModel.deleteOne({ _id: user.id }, (err, result) => {
+    if (err) return next({ error: err });
+    res.status(200).json(result);
   });
 });
 
